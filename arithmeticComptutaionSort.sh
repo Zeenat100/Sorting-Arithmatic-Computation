@@ -11,4 +11,5 @@ firstComputation="$(( a + ( b * c) ))"
 echo "First Arithmetic Computation result is : $firstComputation"
 secondComputation="$(( (a *  b) + c ))"
 echo "Second Arithmetic Computation result is : $secondComputation"
-
+thirdComputation="$(( c + (a / b) ))"
+echo "Third Arithmetic Computation result is : $thirdComputation"

@@ -1,4 +1,4 @@
-declare -A arithmeticComputation
+
 echo "Welcome To Arithmetic Computaion And Sorting"
 echo "Enter the 3 inputs a b  and c"
 echo -n "a = "
@@ -16,8 +16,4 @@ echo "Third Arithmetic Computation result is : $thirdComputation"
 fourthComputation="$(( (a % b) + c ))"
 echo "Fourth Arithmetic Computation result is : $fourthComputation"
 
-arithmeticComputation[firstComputation]=$firstComputation
-arithmeticComputation[secondComputation]=$secondComputation
-arithmeticComputation[thirdComputation]=$thirdComputation
-arithmeticComputation[fourthComputation]=$fourthComputation
-echo "All computation result stored in dictionary" ${arithmeticComputation[@]}
+

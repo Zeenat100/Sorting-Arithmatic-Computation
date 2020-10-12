@@ -20,4 +20,4 @@ arithmeticComputation[firstComputation]=$firstComputation
 arithmeticComputation[secondComputation]=$secondComputation
 arithmeticComputation[thirdComputation]=$thirdComputation
 arithmeticComputation[fourthComputation]=$fourthComputation
-echo "All computation result stored in dictionary" ${arithmeticComputation[@]}
+echo "All computation result are stored in dictionary" ${arithmeticComputation[@]}

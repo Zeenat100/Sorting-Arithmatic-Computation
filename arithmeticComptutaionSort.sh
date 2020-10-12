@@ -7,4 +7,5 @@ echo -n "b = "
 read  b
 echo -n "c = "
 read  c
-
+firstCompuation="$(( a + ( b * c) ))"
+echo "First Arithmetic Computation result is : $firstCompuation"

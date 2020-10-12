@@ -43,5 +43,22 @@ do
         fi
     done
 done
-echo "Computation result stored in array in descending order :"
+echo "Computation result stored in descending order :"
 echo ${array[@]}
+
+for ((i = 0; i<4; i++))
+do
+    for((j = 0; j<4-i-1; j++))
+    do
+        if [ ${array[j]} -gt ${array[$((j+1))]} ]
+        then
+            temp=${array[j]}
+            array[$j]=${array[$((j+1))]}
+            array[$((j+1))]=$temp
+        fi
+    done
+done
+
+echo "Computation result stored in ascending order :"
+echo ${array[@]}
+

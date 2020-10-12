@@ -16,4 +16,3 @@ echo "Third Arithmetic Computation result is : $thirdComputation"
 fourthComputation="$(( (a % b) + c ))"
 echo "Fourth Arithmetic Computation result is : $fourthComputation"
 
-
